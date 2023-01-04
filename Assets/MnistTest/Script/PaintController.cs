@@ -1,3 +1,12 @@
+/*
+    お絵描きソフト風の実装追加
+    
+    参考：
+    https://qiita.com/maple-bitter/items/290ba820cffb8c97834f
+ */
+
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
