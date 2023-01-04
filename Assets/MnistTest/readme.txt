@@ -1,0 +1,4 @@
+Mnist手書き認識を使ったテスト用プロジェクト
+
+kenjiroさんのMnistBarracudaを参考
+https://github.com/keijiro/MnistBarracuda
