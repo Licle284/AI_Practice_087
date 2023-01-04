@@ -34,7 +34,7 @@ Shader "MnistBarracuda/Label"
             {
                 float alpha = tex2D(_MainTex, uv).a;
                 float score = _Scores[(uint)(uv.x * 10)];
-                return lerp(0.1, 1, score) * alpha;
+                return lerp(0.01, 1, score) * alpha;
             }
 
             ENDCG
