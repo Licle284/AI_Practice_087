@@ -19,18 +19,23 @@ public class PaintController : MonoBehaviour
     private RawImage m_image = null;
 
     private Texture2D m_texture = null;
+    public Texture2D GetPaintedTexture()
+    {
+        return m_texture;
+    }
 
     [SerializeField]
-    private int m_width = 4;
+    private int m_width = 12;
 
     [SerializeField]
-    private int m_height = 4;
+    private int m_height = 12;
 
     private Vector2 m_prePos;
     private Vector2 m_TouchPos;
 
     private float m_clickTime, m_preClickTime;
 
+    private Vector2 m_offsetPosLeftBottom;
 
 
     // 線を描画
@@ -79,7 +84,7 @@ public class PaintController : MonoBehaviour
 
     void SetWhitePixelsToTexture(Vector2 _pos)
     {
-        var lPos = _pos;
+        var lPos = _pos - m_offsetPosLeftBottom;
         lPos.y -= m_height / 2.0f;  // ペンの太さ（ピクセル）反映のため
         lPos.x -= m_width / 2.0f;   // ペンの太さ（ピクセル）反映のため
 
@@ -104,14 +109,17 @@ public class PaintController : MonoBehaviour
 
     void Start()
     {
-        var rect = m_image.gameObject.GetComponent<RectTransform>().rect;
-        m_texture = new Texture2D((int)rect.width, (int)rect.height, TextureFormat.RGBA32, false);
-
-        SetBlackTexture((int)rect.width, (int)rect.height);
-
-        m_image.texture = m_texture;
+        ResetTexture();
     }
 
+    public void ResetTexture()
+    {
+        var rectTransform = m_image.gameObject.GetComponent<RectTransform>();
+        m_texture = new Texture2D((int)rectTransform.rect.width, (int)rectTransform.rect.height, TextureFormat.RGBA32, false);
+        SetBlackTexture((int)rectTransform.rect.width, (int)rectTransform.rect.height);
+        m_image.texture = m_texture;
+        m_offsetPosLeftBottom = rectTransform.offsetMin;
+    }
 
     void SetBlackTexture(int width, int height)
     {

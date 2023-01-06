@@ -1,22 +1,34 @@
 using UnityEngine;
+
+
 using Unity.Barracuda;
+using UnityEngine.UI;
+
 
 sealed class MnistTest : MonoBehaviour
 {
     public NNModel _model;
     public ComputeShader _preprocess;
     public ComputeShader _postprocess;
-    public Texture2D _sourceImage;
-    public Renderer _previewRenderer;
-    public Renderer _labelRenderer;
+
+    public RawImage _labelImage;
 
     ComputeBuffer _scores;
 
+    public PaintController paintController;
+
     void Start()
     {
+
+    }
+
+    public void ExecuteInference()
+    {
+        Texture2D sourceImage = paintController.GetPaintedTexture();
+
         // Invoke the preprocessing compute kernel.
         using var buffer = new ComputeBuffer(28 * 28, sizeof(float));
-        _preprocess.SetTexture(0, "Input", _sourceImage);
+        _preprocess.SetTexture(0, "Input", sourceImage);
         _preprocess.SetBuffer(0, "Output", buffer);
         _preprocess.Dispatch(0, 28 / 4, 28 / 4, 1);
 
@@ -39,10 +51,13 @@ sealed class MnistTest : MonoBehaviour
         RenderTexture.ReleaseTemporary(rt);
 
         // Output display
-        _previewRenderer.material.mainTexture = _sourceImage;
-        _labelRenderer.material.SetBuffer("_Scores", _scores);
+        _labelImage.material.SetBuffer("_Scores", _scores);
     }
 
-    void OnDestroy()
-      => _scores?.Dispose();
+    public void ResetInference()
+    {
+        _scores.Dispose();
+        paintController.ResetTexture();
+
+    }
 }
