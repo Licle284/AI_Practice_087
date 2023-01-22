@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4F2E08B7-7F5B-2DE1-ACF1-A25FDAED06C5}</ProjectGuid>
+    <ProjectGuid>{C0BADF6E-367D-805B-6E5F-4C05A7616270}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Unity.ML-Agents</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_16;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_16;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;MLA_UNITY_ANALYTICS_MODULE;MLA_UNITY_PHYSICS_MODULE;MLA_UNITY_PHYSICS2D_MODULE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -56,74 +56,350 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-    <Compile Include="Assets\ML_Agents_test01\Script\RollerAgent.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\MnistTest\Script\MnistTest.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-    <Compile Include="Assets\MnistTest\Script\PaintController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SideChannels\RawBytesChannel.cs">
+      <Link>Runtime\SideChannels\RawBytesChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\GridSensorComponent.cs">
+      <Link>Runtime\Sensors\GridSensorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Analytics\Events.cs">
+      <Link>Runtime\Analytics\Events.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\BarracudaModelExtensions.cs">
+      <Link>Runtime\Inference\BarracudaModelExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\AssemblyInfo.cs">
+      <Link>Runtime\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Timer.cs">
+      <Link>Runtime\Timer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\Vector3ReflectionSensor.cs">
+      <Link>Runtime\Sensors\Reflection\Vector3ReflectionSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\IntReflectionSensor.cs">
+      <Link>Runtime\Sensors\Reflection\IntReflectionSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Policies\BehaviorParameters.cs">
+      <Link>Runtime\Policies\BehaviorParameters.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\Vector4ReflectionSensor.cs">
+      <Link>Runtime\Sensors\Reflection\Vector4ReflectionSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\MultiAgentGroupIdCounter.cs">
+      <Link>Runtime\MultiAgentGroupIdCounter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent2D.cs">
+      <Link>Runtime\Sensors\RayPerceptionSensorComponent2D.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationMetaData.cs">
+      <Link>Runtime\Demonstrations\DemonstrationMetaData.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Analytics\AnalyticsUtils.cs">
+      <Link>Runtime\Analytics\AnalyticsUtils.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Integrations\Match3\Match3SensorComponent.cs">
+      <Link>Runtime\Integrations\Match3\Match3SensorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\TensorNames.cs">
+      <Link>Runtime\Inference\TensorNames.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\TensorGenerator.cs">
+      <Link>Runtime\Inference\TensorGenerator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\CompressionSpec.cs">
+      <Link>Runtime\Sensors\CompressionSpec.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Communicator\UnityRLCapabilities.cs">
+      <Link>Runtime\Communicator\UnityRLCapabilities.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\RenderTextureSensorComponent.cs">
+      <Link>Runtime\Sensors\RenderTextureSensorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\GridSensorBase.cs">
+      <Link>Runtime\Sensors\GridSensorBase.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Policies\BarracudaPolicy.cs">
+      <Link>Runtime\Policies\BarracudaPolicy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\QuaternionReflectionSensor.cs">
+      <Link>Runtime\Sensors\Reflection\QuaternionReflectionSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\RenderTextureSensor.cs">
+      <Link>Runtime\Sensors\RenderTextureSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Communicator\RpcCommunicator.cs">
+      <Link>Runtime\Communicator\RpcCommunicator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\BufferSensor.cs">
+      <Link>Runtime\Sensors\BufferSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationRecorder.cs">
+      <Link>Runtime\Demonstrations\DemonstrationRecorder.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Policies\RemotePolicy.cs">
+      <Link>Runtime\Policies\RemotePolicy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent3D.cs">
+      <Link>Runtime\Sensors\RayPerceptionSensorComponent3D.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\DecisionRequester.cs">
+      <Link>Runtime\DecisionRequester.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\TensorProxy.cs">
+      <Link>Runtime\Inference\TensorProxy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\VectorSensor.cs">
+      <Link>Runtime\Sensors\VectorSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Academy.cs">
+      <Link>Runtime\Academy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\SensorShapeValidator.cs">
+      <Link>Runtime\Sensors\SensorShapeValidator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SideChannels\SideChannel.cs">
+      <Link>Runtime\SideChannels\SideChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\StackingSensor.cs">
+      <Link>Runtime\Sensors\StackingSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Integrations\Match3\AbstractBoard.cs">
+      <Link>Runtime\Integrations\Match3\AbstractBoard.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\ObservableAttribute.cs">
+      <Link>Runtime\Sensors\Reflection\ObservableAttribute.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\CameraSensorComponent.cs">
+      <Link>Runtime\Sensors\CameraSensorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\GeneratorImpl.cs">
+      <Link>Runtime\Inference\GeneratorImpl.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\ObservationWriter.cs">
+      <Link>Runtime\Sensors\ObservationWriter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\ModelRunner.cs">
+      <Link>Runtime\Inference\ModelRunner.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\IGridPerception.cs">
+      <Link>Runtime\Sensors\IGridPerception.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SideChannels\EngineConfigurationChannel.cs">
+      <Link>Runtime\SideChannels\EngineConfigurationChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SideChannels\SideChannelManager.cs">
+      <Link>Runtime\SideChannels\SideChannelManager.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\ActionSegment.cs">
+      <Link>Runtime\Actuators\ActionSegment.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SideChannels\IncomingMessage.cs">
+      <Link>Runtime\SideChannels\IncomingMessage.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\IBuiltInSensor.cs">
+      <Link>Runtime\Sensors\IBuiltInSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\EpisodeIdCounter.cs">
+      <Link>Runtime\EpisodeIdCounter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Policies\IPolicy.cs">
+      <Link>Runtime\Policies\IPolicy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\IMultiAgentGroup.cs">
+      <Link>Runtime\IMultiAgentGroup.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\ActuatorManager.cs">
+      <Link>Runtime\Actuators\ActuatorManager.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\BoxOverlapChecker.cs">
+      <Link>Runtime\Sensors\BoxOverlapChecker.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\VectorSensorComponent.cs">
+      <Link>Runtime\Sensors\VectorSensorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\BarracudaModelParamLoader.cs">
+      <Link>Runtime\Inference\BarracudaModelParamLoader.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\Utils\Multinomial.cs">
+      <Link>Runtime\Inference\Utils\Multinomial.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\EnvironmentParameters.cs">
+      <Link>Runtime\EnvironmentParameters.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationSummary.cs">
+      <Link>Runtime\Demonstrations\DemonstrationSummary.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Agent.cs">
+      <Link>Runtime\Agent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\IHeuristicProvider.cs">
+      <Link>Runtime\Actuators\IHeuristicProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SideChannels\FloatPropertiesChannel.cs">
+      <Link>Runtime\SideChannels\FloatPropertiesChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Analytics\TrainingAnalytics.cs">
+      <Link>Runtime\Analytics\TrainingAnalytics.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\InplaceArray.cs">
+      <Link>Runtime\InplaceArray.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Communicator\GrpcExtensions.cs">
+      <Link>Runtime\Communicator\GrpcExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\MLAgentsSettings.cs">
+      <Link>Runtime\MLAgentsSettings.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\IActuator.cs">
+      <Link>Runtime\Actuators\IActuator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\BoolReflectionSensor.cs">
+      <Link>Runtime\Sensors\Reflection\BoolReflectionSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Areas\TrainingAreaReplicator.cs">
+      <Link>Runtime\Areas\TrainingAreaReplicator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\IActionReceiver.cs">
+      <Link>Runtime\Actuators\IActionReceiver.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Constants.cs">
+      <Link>Runtime\Constants.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Analytics\InferenceAnalytics.cs">
+      <Link>Runtime\Analytics\InferenceAnalytics.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\ReflectionSensorBase.cs">
+      <Link>Runtime\Sensors\Reflection\ReflectionSensorBase.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\ActionSpec.cs">
+      <Link>Runtime\Actuators\ActionSpec.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Integrations\Match3\Match3Actuator.cs">
+      <Link>Runtime\Integrations\Match3\Match3Actuator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\IDiscreteActionMask.cs">
+      <Link>Runtime\Actuators\IDiscreteActionMask.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\StatsRecorder.cs">
+      <Link>Runtime\StatsRecorder.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\UnityAgentsException.cs">
+      <Link>Runtime\UnityAgentsException.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponentBase.cs">
+      <Link>Runtime\Sensors\RayPerceptionSensorComponentBase.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\VectorActuator.cs">
+      <Link>Runtime\Actuators\VectorActuator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sampler.cs">
+      <Link>Runtime\Sampler.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SideChannels\OutgoingMessage.cs">
+      <Link>Runtime\SideChannels\OutgoingMessage.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\IBuiltInActuator.cs">
+      <Link>Runtime\Actuators\IBuiltInActuator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\SensorComponent.cs">
+      <Link>Runtime\Sensors\SensorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensor.cs">
+      <Link>Runtime\Sensors\RayPerceptionSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Utilities.cs">
+      <Link>Runtime\Utilities.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\Utils\RandomNormal.cs">
+      <Link>Runtime\Inference\Utils\RandomNormal.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\FloatReflectionSensor.cs">
+      <Link>Runtime\Sensors\Reflection\FloatReflectionSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SideChannels\TrainingAnalyticsSideChannel.cs">
+      <Link>Runtime\SideChannels\TrainingAnalyticsSideChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\ActuatorDiscreteActionMask.cs">
+      <Link>Runtime\Actuators\ActuatorDiscreteActionMask.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\ObservationSpec.cs">
+      <Link>Runtime\Sensors\ObservationSpec.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\TensorApplier.cs">
+      <Link>Runtime\Inference\TensorApplier.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SideChannels\EnvironmentParametersChannel.cs">
+      <Link>Runtime\SideChannels\EnvironmentParametersChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\EnumReflectionSensor.cs">
+      <Link>Runtime\Sensors\Reflection\EnumReflectionSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\BufferSensorComponent.cs">
+      <Link>Runtime\Sensors\BufferSensorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Policies\BrainParameters.cs">
+      <Link>Runtime\Policies\BrainParameters.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationWriter.cs">
+      <Link>Runtime\Demonstrations\DemonstrationWriter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SensorHelper.cs">
+      <Link>Runtime\SensorHelper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SideChannels\StatsSideChannel.cs">
+      <Link>Runtime\SideChannels\StatsSideChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Inference\ApplierImpl.cs">
+      <Link>Runtime\Inference\ApplierImpl.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\ISensor.cs">
+      <Link>Runtime\Sensors\ISensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\RecursionChecker.cs">
+      <Link>Runtime\RecursionChecker.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\CameraSensor.cs">
+      <Link>Runtime\Sensors\CameraSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\MLAgentsSettingsManager.cs">
+      <Link>Runtime\MLAgentsSettingsManager.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\SimpleMultiAgentGroup.cs">
+      <Link>Runtime\SimpleMultiAgentGroup.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\ActuatorComponent.cs">
+      <Link>Runtime\Actuators\ActuatorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Policies\HeuristicPolicy.cs">
+      <Link>Runtime\Policies\HeuristicPolicy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Communicator\ICommunicator.cs">
+      <Link>Runtime\Communicator\ICommunicator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\Vector2ReflectionSensor.cs">
+      <Link>Runtime\Sensors\Reflection\Vector2ReflectionSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Communicator\CommunicatorFactory.cs">
+      <Link>Runtime\Communicator\CommunicatorFactory.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Integrations\Match3\Match3ActuatorComponent.cs">
+      <Link>Runtime\Integrations\Match3\Match3ActuatorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Integrations\Match3\Move.cs">
+      <Link>Runtime\Integrations\Match3\Move.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\OneHotGridSensor.cs">
+      <Link>Runtime\Sensors\OneHotGridSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Integrations\Match3\Match3Sensor.cs">
+      <Link>Runtime\Integrations\Match3\Match3Sensor.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\MnistTest\Script\Postprocess.compute" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\MnistTest\readme.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\ReactionRoid\reactionRoid.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\MnistTest\Script\Numbers.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\MnistTest\Script\Preprocess.compute" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Runtime\Unity.ML-Agents.asmdef">
+      <Link>Runtime\Unity.ML-Agents.asmdef</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -372,8 +648,26 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System.IO.Abstractions">
       <HintPath>C:\Users\kago2\Documents\UnityProject\AI_Practice_087\ml-agents-release_19\com.unity.ml-agents\Plugins\System.IO.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
@@ -384,14 +678,26 @@
     <Reference Include="Google.Protobuf">
       <HintPath>Library\PackageCache\com.unity.barracuda@80909e3320\Barracuda\Runtime\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -777,127 +1083,23 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda.iOSBLAS">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.iOSBLAS.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda.BurstBLAS">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.BurstBLAS.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda.ONNX">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.ONNX.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Barracuda">
       <HintPath>Library\ScriptAssemblies\Unity.Barracuda.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Services.Core.Analytics">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core.Environments">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda.MacBLAS">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.MacBLAS.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.ML-Agents.csproj">
-      <Project>{C0BADF6E-367D-805B-6E5F-4C05A7616270}</Project>
-      <Name>Unity.ML-Agents</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.ML-Agents.CommunicatorObjects.csproj">
       <Project>{8B8D1868-D2FC-DCDB-92CB-32D017B5FE72}</Project>
       <Name>Unity.ML-Agents.CommunicatorObjects</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ML-Agents.Editor.csproj">
-      <Project>{3AECC2CD-3764-0284-75DC-63B9920F5038}</Project>
-      <Name>Unity.ML-Agents.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

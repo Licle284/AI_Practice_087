@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ML-Agents", "Unity.ML-Agents.csproj", "{C0BADF6E-367D-805B-6E5F-4C05A7616270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ML-Agents.CommunicatorObjects", "Unity.ML-Agents.CommunicatorObjects.csproj", "{8B8D1868-D2FC-DCDB-92CB-32D017B5FE72}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{4F2E08B7-7F5B-2DE1-ACF1-A25FDAED06C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ML-Agents.Editor", "Unity.ML-Agents.Editor.csproj", "{3AECC2CD-3764-0284-75DC-63B9920F5038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +15,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0BADF6E-367D-805B-6E5F-4C05A7616270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BADF6E-367D-805B-6E5F-4C05A7616270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BADF6E-367D-805B-6E5F-4C05A7616270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BADF6E-367D-805B-6E5F-4C05A7616270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8D1868-D2FC-DCDB-92CB-32D017B5FE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8D1868-D2FC-DCDB-92CB-32D017B5FE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8D1868-D2FC-DCDB-92CB-32D017B5FE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8D1868-D2FC-DCDB-92CB-32D017B5FE72}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F2E08B7-7F5B-2DE1-ACF1-A25FDAED06C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F2E08B7-7F5B-2DE1-ACF1-A25FDAED06C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F2E08B7-7F5B-2DE1-ACF1-A25FDAED06C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F2E08B7-7F5B-2DE1-ACF1-A25FDAED06C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AECC2CD-3764-0284-75DC-63B9920F5038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AECC2CD-3764-0284-75DC-63B9920F5038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AECC2CD-3764-0284-75DC-63B9920F5038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AECC2CD-3764-0284-75DC-63B9920F5038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
